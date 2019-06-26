@@ -626,6 +626,7 @@ pre tt:after {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  color: #fff;
 }
 
 .background span{
