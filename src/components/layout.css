@@ -617,7 +617,7 @@ pre tt:after {
 }
 
 .background{
-  background: url('../images/Birthday.jpg');
+  background: url('../images/birthday.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
