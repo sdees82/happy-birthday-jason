@@ -635,7 +635,7 @@ pre tt:after {
 }
 
 @media only screen and (max-width: 680px) {
-  .background span {
+  .background span, .background h2 {
     font-size: 110% ;
   }
 }
