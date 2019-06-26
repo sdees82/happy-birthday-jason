@@ -15,7 +15,7 @@ const IndexPage = () => (
   effectChange={2.0}
   effectDuration={0.3}
 />
-<h2>Thanks for everything you do!</h2>
+<h2>Thanks for everything you do for the community!</h2>
 </div>
   </Layout>
 )
