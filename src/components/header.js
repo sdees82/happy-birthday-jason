@@ -5,6 +5,8 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
+      display: 'none',
+      title: "Happy birthday Jason!",
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
@@ -12,7 +14,6 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
     >

@@ -615,8 +615,26 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
+
+.background{
+  background: url('../images/Birthday.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.background span{
+  color: #fff;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 680px) {
+  .background span {
+    font-size: 110% ;
   }
 }
